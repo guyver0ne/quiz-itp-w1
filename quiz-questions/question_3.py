@@ -13,4 +13,5 @@ def remove_Es(a_string):
     remove_Es('abc')      # 'abc'
     """
     # Write your code here
-    pass
+    e_stripped = remove_Es.replace('eE', ' ')
+    return e_stripped
